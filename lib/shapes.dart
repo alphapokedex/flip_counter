@@ -38,7 +38,7 @@ class Triangle extends CustomPainter {
     Offset p2 = Offset(h / 2, 0);
     Offset p3 = Offset(-h / 2, 0);
 
-    Paint triPaint = Paint()..color = Color.fromARGB(255, 99, 80, 239);
+    Paint triPaint = Paint()..color = const Color.fromARGB(255, 99, 80, 239);
     Path path = Path();
     path.addPolygon([p1, p2, p3], true);
     path.close();

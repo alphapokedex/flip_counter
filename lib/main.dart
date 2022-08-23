@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flip_counter/background_animations.dart';
-import 'package:flip_counter/shapes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +27,7 @@ class _MyAppState extends State<MyApp> {
             BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
               child: Column(
-                children: [],
+                children: const [],
               ),
             ),
           ],
