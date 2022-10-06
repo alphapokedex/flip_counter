@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flip Counter',
       theme: ThemeData.light(),
       home: Scaffold(
         body: Stack(
